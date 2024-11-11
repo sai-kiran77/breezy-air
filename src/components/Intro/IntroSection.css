@@ -1,0 +1,109 @@
+/* IntroSection.css */
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #D9F3FF99;
+    border-radius: 2rem;
+    gap: 1.5rem;
+}
+
+.intro-left {
+    max-width: 50%;
+}
+
+.section-title {
+    font-size: 3rem;
+    color: #023047;
+    margin: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section-title .brand-name {
+    color: #009EED;
+}
+
+.section-subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #023047;
+    margin-top: 1.5rem;
+}
+
+.action-items {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+.schedule-button {
+    padding: 1rem;
+    background-color: #023047;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.why-us-link {
+    color: #023047;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding: 1rem;
+
+}
+
+.why-us-link:hover {
+    text-decoration: underline;
+}
+
+.intro-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.intro-image {
+    width: 13rem;
+    height: 380px;
+    border-radius: 80px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .intro-section {
+        flex-direction: column;
+        margin: 1rem;
+        padding: 2rem;
+    }
+
+    .intro-left {
+        max-width: 80%;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .section-subtitle {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .action-items {
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .intro-image {
+        width: 8rem;
+        height: 280px;
+    }
+}

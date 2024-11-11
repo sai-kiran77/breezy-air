@@ -1,0 +1,81 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 69px;
+  height: 69px;
+  margin-right: 1rem;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  color: #023047;
+}
+
+.caption {
+  font-size: 0.75rem;
+  color: #000000;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.enquire-button {
+  padding: 0.5rem 1rem;
+  background-color: #60CDFF;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enquire-button:hover {
+  background-color: #49c0f8;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .title {
+    display: none;
+    font-size: 1.2rem;
+  }
+
+  .caption {
+    display: none;
+    font-size: 0.6rem;
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+  }
+}

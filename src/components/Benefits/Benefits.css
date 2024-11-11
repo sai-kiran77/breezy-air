@@ -1,0 +1,195 @@
+/* BenefitsSection.css */
+.benefits-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 2rem;
+    margin: 3rem;
+  }
+  
+  .benefits-content {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .benefits-section-title {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .benefits-section-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
+  .benefits-section-description {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .benefits-cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .benefits-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .benefits-card-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .benefits-card-text {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .benefits-card-description {
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .benefits-cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .benefits-cards-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+  /* RepairServicesSection.css */
+.repair-services-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 3rem;
+    gap: 2rem;
+  }
+
+.repair-services-section.second {
+    flex-direction: row-reverse;
+  }
+
+.repair-services-section.second .repair-services-right{
+    justify-content: flex-start;
+}
+.repair-services-section.second .repair-services-left{
+    text-align: right;
+}
+.repair-services-section.second .repair-services-left .repair-services-options{
+    align-items: flex-end;
+}
+  
+  .repair-services-left {
+    flex: 1;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .repair-services-title {
+    font-size: 2rem;
+    margin: 0;
+    color: #60CDFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .repair-services-subtitle {
+    color: #023047;
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .repair-services-description {
+    font-size: 1.5rem;
+    color: #023047;
+    font-weight: 400;
+    margin: 1.5rem 0;
+  }
+  
+  .repair-services-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .repair-option {
+    display: flex;
+    align-items: center;
+    color: #023047;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .repair-option-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .repair-option-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .repair-services-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .repair-services-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .repair-services-section {
+      flex-direction: column;
+    }
+    .repair-services-section.second {
+      flex-direction: column-reverse;
+    }
+  
+    .repair-services-left {
+      padding-right: 0;
+      text-align: center;
+    }
+  
+    .repair-services-right {
+      margin-top: 1.5rem;
+    }
+  
+    .repair-option {
+      justify-content: center;
+    }
+  }
+  

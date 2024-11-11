@@ -1,0 +1,125 @@
+/* ContactSection.css */
+.contact-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 3rem;
+    gap: 2rem;
+  }
+  
+  .contact-left {
+    flex: 2;
+    text-align: left;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contact-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section-title {
+    font-size: 3rem;
+    color: #023047;
+    margin: 1rem 0;
+    font-weight: 700;
+  }
+  
+  .contact-section-subtitle {
+    font-size: 1.5rem;
+    color: #023047;
+    font-weight: 400;
+  }
+  
+  .contact-right {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+.form-group input:focus{
+    border: 1px solid #116ACC;
+    background-color: #A0C3FF1A;
+}
+
+  
+  .contact-form-button {
+    background-color: #023047;
+    color: #fff;
+    padding: 0.75rem;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .contact-right {
+      border-left: none;
+      border-top: 1px solid #ddd;
+    }
+  
+    .contact-left {
+      padding: 1rem;
+    }
+  
+    .contact-right {
+      padding: 1rem;
+    }
+
+    .vertical-border{
+        display: none;
+    }
+
+    .contact-section-title {
+        font-size: 2rem;
+      }
+      
+      .contact-section-subtitle {
+        font-size: 1rem;
+      }
+  }
+  
+  .vertical-border{
+    width: 1px;
+    background-color: #D4D4D4;
+    margin: auto;
+    height: 350px;
+  }
