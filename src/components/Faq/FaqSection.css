@@ -1,0 +1,106 @@
+.uniqueFaqs-faq-section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .uniqueFaqs-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #023047;
+    font-weight: 600;
+  }
+  
+  .uniqueFaqs-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    color: #023047;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+  }
+  
+  .uniqueFaqs-faqs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .uniqueFaqs-faq-card {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .uniqueFaqs-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #170F49;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .uniqueFaqs-answer {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6F6C90;
+    font-weight: 400;
+  }
+  
+  .uniqueFaqs-arrow {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;   
+    border-radius: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .uniqueFaqs-open {
+    transform: rotate(90deg);
+  }
+  
+  @media (max-width: 768px) {
+    .uniqueFaqs-faq-section {
+        max-width: 80%;
+      }
+      
+      .uniqueFaqs-title {
+        font-size: 2rem;
+      }
+      
+      .uniqueFaqs-subtitle {
+        font-size: 1rem;
+      }
+      
+      .uniqueFaqs-faq-card {
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+      }
+      .uniqueFaqs-question {
+        font-size: 1rem;
+      }
+      
+      .uniqueFaqs-answer {
+        font-size: 0.75rem;
+      }
+
+      .uniqueFaqs-arrow {
+        min-width: 25px;
+        min-height: 25px;
+        max-width: 25px;
+        max-height: 25px;
+      }
+}

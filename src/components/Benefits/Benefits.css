@@ -191,5 +191,13 @@
     .repair-option {
       justify-content: center;
     }
+
+    .repair-services-subtitle {
+      font-size: 2rem;
+    }
+    
+    .repair-services-description {
+      font-size: 1rem;
+    }
   }
   
