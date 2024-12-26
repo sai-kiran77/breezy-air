@@ -55,6 +55,7 @@
 .footer-links a {
     color: #000;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .footer-links a:hover {

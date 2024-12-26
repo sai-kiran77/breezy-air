@@ -19,7 +19,9 @@ const Header = () => {
         <a href="#about" className="nav-link">About Us</a>
         <a href="#services" className="nav-link">Services</a>
         <a href="#why-us" className="nav-link">Why Us?</a>
-        <button className="enquire-button">Enquire</button>
+        <a href='#contact-section'>
+          <button className="enquire-button">Enquire</button>
+        </a>
       </nav>
     </header>
   );

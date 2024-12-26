@@ -4,7 +4,7 @@ import './ContactSection.css';
 
 const ContactSection = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact-section">
       {/* Left Section */}
       <div className="contact-left">
         <img src="/assets/images/briefcase.svg" alt="Contact Icon" className="contact-icon" />
